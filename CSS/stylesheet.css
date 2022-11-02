@@ -8,7 +8,7 @@
 }
 :root{
     --bg-color: #DFDFDF;
-    --main-color: #A01298;
+    --main-color: #ffb9fc;
     --second-color: #1C2833;
     --text-color: #070707;
 
@@ -27,6 +27,7 @@ header{
     color: var(--main-color);
     font-weight: 600;
     letter-spacing: 1px;
+    margin-right: 20%;
 }
 .navbar{
     display: flex;
@@ -38,6 +39,7 @@ header{
     border-radius: 10px;
     font-weight: 600;
     transition: ease .3s;
+    margin-left: 40px;
     }
 .navbar a:hover{
     color: var(--bg-color);

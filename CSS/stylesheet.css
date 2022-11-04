@@ -28,6 +28,7 @@ header{
     font-weight: 600;
     letter-spacing: 1px;
     margin-right: 20%;
+    display: inline;
 }
 .navbar{
     display: flex;

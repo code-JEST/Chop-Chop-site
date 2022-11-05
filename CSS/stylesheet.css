@@ -58,10 +58,13 @@ header{
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     align-items: center;
+    text-align: center;
 }
-.home_tekst h1{
-    font-size: var(--h2-font);
-    color: var(--bg-color);
+.home-tekst h1{
+    font-family: 'Passion One', cursive;
+    font-size: 60px;
+    color: var(--main-color);
+    margin-bottom: 15px;
 }
 .home-btn{
     display: inline-block;

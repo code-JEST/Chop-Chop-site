@@ -41,7 +41,7 @@ header{
     }
 .navbar a:hover{
     color: var(--bg-color);
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     box-shadow: 3px 5px 20px rgba(15, 15, 15, 0.5);
     border-radius: 4px;
 }

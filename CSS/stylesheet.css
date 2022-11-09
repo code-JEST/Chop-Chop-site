@@ -12,7 +12,7 @@
     --second-color: #1C2833;
     --text-color: #070707;
 
-    --p-font: 1rem;
+    --p-font: 1.5rem;
     --h2-font: 2.5rem;
     --h3-font: 5rem;
 }
@@ -83,7 +83,7 @@ header{
 /*Meny*/
 .matrett{
     margin-top:10px;
-    font-size:25px;
+    font-size:var(--h2-font);
     margin-left:5%;
 }
 hr{
@@ -99,7 +99,7 @@ hr{
 
 }
 h2{
-    font-size:35px;
+    font-size: var(--h2-font);
 
 }
 /*Booking form*/
@@ -117,3 +117,28 @@ h2{
     left: 900px;
     bottom: 600px;
 }
+
+
+
+
+/*MEDIA*/
+@media only screen and (max-width: 600px) {
+    :root{
+        --p-font: 1rem;
+        --h2-font: 2.2rem;
+        --h3-font: 4px;
+	}
+    body {
+      background-color: lightblue;
+    }
+    .home-tekst h1{
+        font-family: 'Passion One', cursive;
+        font-size: 45px;
+        color: var(--main-color);
+        margin-bottom: 15px;
+    }
+    #home{
+        width: 100%;
+        height: 1000px;
+    }
+  }

@@ -1,7 +1,7 @@
 .gridtesting{
     background-color: rgba(255, 255, 255, 0.8);
   
-  font-size: 30px;
+  font-size: var(--p-font);
   border-bottom:solid 3px;
 
 }
@@ -21,6 +21,7 @@
     .måltid{
         flex:100%;
     }
+
 }
 .food{
     display:block;

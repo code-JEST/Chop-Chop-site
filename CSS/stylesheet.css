@@ -80,3 +80,25 @@ header{
     transform: scale(1.1);
     transition: ease-in 0.3s;
 }
+/*Meny*/
+.matrett{
+    margin-top:10px;
+    font-size:25px;
+    margin-left:5%;
+}
+hr{
+    display:block;
+    content: "";
+    border-style:solid;
+    background-color:#1C2833;
+    height:2px;
+    border-color:#1C2833;
+
+    border-radius:20px;
+    margin-bottom:5px;
+
+}
+h2{
+    font-size:35px;
+
+}

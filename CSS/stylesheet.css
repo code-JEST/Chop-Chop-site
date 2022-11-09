@@ -93,18 +93,34 @@ hr{
     background-color:#1C2833;
     height:2px;
     border-color:#1C2833;
-    width:75%;
+
     border-radius:20px;
     margin-bottom:5px;
-    margin-left:5%;
+
 }
 h2{
     font-size:35px;
-    margin-left:5%;
+
 }
 .beskrivelse{
-    margin-left:8%;
+    
 }
 .allergi{
-    margin-left:10%;
+    
+}
+.gridtesting{
+    background-color: rgba(255, 255, 255, 0.8);
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.gridcontainer{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.Meny{
+    text-align:center;
+    font-size:50px;
 }

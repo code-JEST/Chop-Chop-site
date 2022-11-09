@@ -1,0 +1,35 @@
+.gridtesting{
+    background-color: rgba(255, 255, 255, 0.8);
+  
+  font-size: 30px;
+  border-bottom:solid 3px;
+
+}
+.gridcontainer{
+    display: flex;
+    flex-wrap: wrap;
+  grid-template-columns: 30% 30% 30%;
+  padding: 10px;
+}
+.måltid{
+    text-align: center;
+    padding:20px;
+    position: relative;
+    flex:30%;
+}
+@media(max-width: 800px){
+    .måltid{
+        flex:100%;
+    }
+}
+.food{
+    display:block;
+    position: stickys;
+    float:left;
+    height:200px;
+
+}
+.Meny{
+    text-align:center;
+    font-size:50px;
+}

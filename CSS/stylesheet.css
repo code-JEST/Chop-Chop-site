@@ -48,7 +48,7 @@ header{
 /*HOME*/
 #home{
     /*BARE EN TEST FOR BILDE*/
-    background-image: url(images/eating-gdbe7da72e_1920.jpg);
+    background-image: url(/images/eating-gdbe7da72e_1920.jpg);
     background-size: cover;
     position: relative;
     width: 100%;

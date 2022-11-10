@@ -17,11 +17,8 @@
     position: relative;
     flex:30%;
 }
-@media(max-width: 800px){
-    .måltid{
-        flex:100%;
-    }
-
+.måltid h2{
+    font-size: var(--h2-font);
 }
 .food{
     display:block;
@@ -32,5 +29,27 @@
 }
 .Meny{
     text-align:center;
-    font-size:50px;
+    font-size: var(--h1-font);
+}
+.matrett{
+    margin-top:10px;
+    font-size:var(--h3-font);
+    margin-left:5%;
+}
+hr{
+    display:block;
+    content: "";
+    border-style:solid;
+    background-color:#1C2833;
+    height:2px;
+    border-color:#1C2833;
+
+    border-radius:20px;
+    margin-bottom:5px;
+
+}
+@media(max-width: 800px){
+    .måltid{
+        flex:100%;
+    }
 }

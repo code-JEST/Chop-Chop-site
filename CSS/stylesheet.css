@@ -32,7 +32,7 @@ header{
 }
 #menu-icon{
     color: var(--text-color);
-    font-size: 30px;
+    font-size: 40px;
     z-index: 11;
     cursor: pointer;
     display: none;
@@ -155,6 +155,10 @@ header{
         --h1-font: 3rem;
         transition: .2s;
 	}
+    header{
+        padding: 10px 2%;
+        transition: .2s;
+    }
     body {
       background-color: rgb(243, 14, 14);
     }

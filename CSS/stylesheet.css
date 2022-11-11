@@ -58,8 +58,8 @@ header{
 }
 /*HOME*/
 #home{
-    /*bilde https://pixabay.com/photos/eating-balcany-dinner-resturant-1544792 */
-    background-image: url(/images/eating-gdbe7da72e_1920.jpg);
+    /*BARE EN TEST FOR BILDE*/
+    background-image: url(../images/eating-gdbe7da72e_1920.jpg);
     background-size: cover;
     position: relative;
     width: 100%;

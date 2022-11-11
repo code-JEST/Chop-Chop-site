@@ -27,7 +27,11 @@ header{
     padding: 20px 18%;
     display: flex;
 }
+.logo{
+    height: 100px;
+}
 .logo_tekst{
+    height: 100px;
     margin-right: 20%;
     margin-left: 20px;
 }
@@ -185,6 +189,7 @@ footer {
 /*MEDIA*/
 @media (max-width: 1400px){
     :root{
+        --footer-font: 0.9rem;
         --p-font: 1.4rem;
         --h3-font: 1.7rem;
         --h2-font: 2.4rem;
@@ -200,6 +205,7 @@ footer {
 }
 @media (max-width: 1040px){
     :root{
+        --footer-font: 0.8rem;
         --button-font: 0.8rem;
         --p-font: 1.2rem;
         --h3-font: 1.6rem;
@@ -220,6 +226,7 @@ footer {
 }
 @media (max-width: 575px) {
     :root{
+        --footer-font: 0.7rem;
         --p-font: 1rem;
         --h3-font: 1.5rem;
         --h2-font: 2rem;
@@ -236,5 +243,22 @@ footer {
     .home-tekst h1{
         font-size: 45px;
         transition: .2s;
+    }
+    .footer-container {
+        padding: 2px;
+        transition: .2s;
+      }
+    .footer-item {
+        padding: 6px;
+        transition: .2s;
+      } 
+      .logo{
+        height: 80px;
+        transition: .4s;
+    }
+    .logo_tekst{
+        height: 80px;
+        margin-left: 5px;
+        transition: .4s;
     }
   }

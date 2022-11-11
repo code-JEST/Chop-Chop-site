@@ -12,6 +12,7 @@
     --second-color: #1C2833;
     --text-color: #070707;
 
+    --footer-font: 1rem;
     --button-font: 1rem;
     --p-font: 1.5rem;
     --h3-font: 1.8rem;
@@ -91,6 +92,26 @@ header{
     transform: scale(1.1);
     transition: ease-in 0.3s;
 }
+/*FOOTER*/
+footer {
+    background-color: var(--main-color);
+    color: white;
+    font-size: var(--footer-font);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+.footer-item {
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  } 
 /*Booking form*/
 #bookingform{
     position: fixed;

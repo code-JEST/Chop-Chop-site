@@ -29,11 +29,13 @@ header{
 }
 .logo{
     height: 100px;
+    transition: .4s;
 }
 .logo_tekst{
     height: 100px;
     margin-right: 20%;
     margin-left: 20px;
+    transition: .4s;
 }
 #menu-icon{
     color: var(--text-color);
@@ -110,11 +112,13 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px;
+    transition: .2s;
   }
 .footer-item {
     padding: 10px;
     margin-left: 10%;
     margin-right: 10%;
+    transition: .2s;
   } 
 /*Booking form*/
 #bookingform{

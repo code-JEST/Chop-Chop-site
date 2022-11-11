@@ -155,10 +155,11 @@ input{
     width:auto;
     text-align:center;
 }
-li{
-   margin-top:20px;
-   text-decoration: overline;
-}
+
 .åpningstider{
     text-align:center;
+}
+.tidene{
+    text-decoration: overline;
+    margin-top:20px;
 }

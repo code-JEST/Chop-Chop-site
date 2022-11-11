@@ -12,12 +12,9 @@
     --second-color: #1C2833;
     --text-color: #070707;
 
-    --button-font: 1rem;
-    --p-font: 1.5rem;
-    --h3-font: 1.8rem;
+    --p-font: 1rem;
     --h2-font: 2.5rem;
-    --h1-font: 4rem;
-    
+    --h3-font: 5rem;
 }
 /*HEADER*/
 header{
@@ -26,16 +23,9 @@ header{
     padding: 20px 18%;
     display: flex;
 }
-.logo_tekst{
+.logo{
     margin-right: 20%;
     margin-left: 20px;
-}
-#menu-icon{
-    color: var(--text-color);
-    font-size: 40px;
-    z-index: 11;
-    cursor: pointer;
-    display: none;
 }
 .navbar{
     display: flex;
@@ -71,13 +61,12 @@ header{
 }
 .home-tekst h1{
     font-family: 'Passion One', cursive;
-    font-size: var(--h1-font);
+    font-size: 60px;
     color: var(--main-color);
     margin-bottom: 15px;
 }
 .home-btn{
     display: inline-block;
-    font-size: var(--button-font);
     color: var(--bg-color);
     border-radius: 10px;
     background-color: var(--main-color);
@@ -91,79 +80,87 @@ header{
     transform: scale(1.1);
     transition: ease-in 0.3s;
 }
-/*Booking form*/
-#bookingform{
-    position: fixed;
-    left: 900px;
-    bottom: 600px;
-    font-size: var(--p-font);
+/*Meny*/
+.matrett{
+    margin-top:10px;
+    font-size:25px;
+    margin-left:5%;
 }
-/*Sendt booking*/
-#sendtbooking{
-    font-family: 'Passion One', cursive;
-    font-size: var(--h1-font);
-    color: var(--main-color);
-    position: fixed;
-    left: 900px;
-    bottom: 600px;
+hr{
+    display:block;
+    content: "";
+    border-style:solid;
+    background-color:#1C2833;
+    height:2px;
+    border-color:#1C2833;
+    border-radius:20px;
+    margin-bottom:5px;
+
+}
+h2{
+    font-size:35px;
+
+}
+.beskrivelse{
+    
+}
+.allergi{
+    
+}
+.gridtesting{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.gridcontainer{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.Meny{
+    text-align:center;
+    font-size:50px;
+}
+.backgroundimage{ 
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    background-size:cover;
+    background-color:;
+    background-image:url();
+    position:relative;
+    width: 100%;
+    height: 100vh;
+}
+#backgroundbooking{
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    background-size:cover;
+    background-color:#1C2833;
+    background-image:url(/images/898-8984176_hd-pattern-design.png);
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    color:white;
+    
+}
+input{
+    padding: 5px 15px;
+    margin:8px;
+    border-radius:3px solid gray;
+    cursor:pointer;
+}
+.inputdiv{
+    width:auto;
+    text-align:center;
+    margin-top:80px;
 }
 
-
-
-
-/*MEDIA*/
-@media (max-width: 1400px){
-    :root{
-        --p-font: 1.4rem;
-        --h3-font: 1.7rem;
-        --h2-font: 2.4rem;
-        transition: .2s;
-	}
-    header{
-        padding: 17px 3%;
-        transition: .2s;
-    }
-    body {
-        background-color: rgb(32, 226, 14);
-      }
+.åpningstider{
+    text-align:center;
 }
-@media (max-width: 1040px){
-    :root{
-        --button-font: 0.8rem;
-        --p-font: 1.2rem;
-        --h3-font: 1.6rem;
-        --h2-font: 2.2rem;
-        --h1-font: 3.5rem;
-        transition: .2s;
-	}
-    .navbar{
-        display: block;
-        text-align: center;
-    }
-    #menu-icon{
-		display: block;
-	}
-    body {
-        background-color: rgb(0, 160, 235);
-      }
+.tidene{
+    text-decoration: overline;
+    margin-top:20px;
 }
-@media (max-width: 575px) {
-    :root{
-        --p-font: 1rem;
-        --h3-font: 1.5rem;
-        --h2-font: 2rem;
-        --h1-font: 3rem;
-        transition: .2s;
-	}
-    header{
-        padding: 10px 2%;
-        transition: .2s;
-    }
-    body {
-      background-color: rgb(243, 14, 14);
-    }
-    .home-tekst h1{
-        font-size: 45px;
-        transition: .2s;
-    }
-  }

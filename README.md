@@ -1,6 +1,3 @@
-# Final-assignment-DATA1200
-Final assignment DATA1200 - fall 2022 
-
 Husk lærer tilbakemedling:
 Pass på at dere viser til hvor bildene deres er tatt. Vi er ikke strenge på denne for obligatoriske oppgaven, men på eksamen vil sensor kunne være veldig strenge på dette. 
 

@@ -1,7 +1,7 @@
 .gridtesting{
     background-color: rgba(255, 255, 255, 0.8);
   
-  font-size: var(--p-font);
+  font-size: 30px;
   border-bottom:solid 3px;
 
 }
@@ -12,48 +12,24 @@
   padding: 10px;
 }
 .måltid{
+    text-align: center;
     padding:20px;
     position: relative;
     flex:30%;
-}
-.måltid h2{
-    font-size: var(--h2-font);
-}
-.food{
-    display:block;
-    position: relative;
-    float:left;
-    height:200px;
-    margin-right: 10px;
-    margin-top: 16px;
-}
-.Meny{
-    text-align:center;
-    font-size: var(--h1-font);
-}
-.matrett{
-    margin-top:10px;
-    font-size:var(--h3-font);
-    margin-left:5%;
-}
-.allergi{
-    position: relative;
-    text-align: center;
-}
-hr{
-    display:block;
-    content: "";
-    border-style:solid;
-    background-color:#1C2833;
-    height:2px;
-    border-color:#1C2833;
-
-    border-radius:20px;
-    margin-bottom:5px;
-
 }
 @media(max-width: 800px){
     .måltid{
         flex:100%;
     }
+}
+.food{
+    display:block;
+    position: stickys;
+    float:left;
+    height:200px;
+
+}
+.Meny{
+    text-align:center;
+    font-size:50px;
 }

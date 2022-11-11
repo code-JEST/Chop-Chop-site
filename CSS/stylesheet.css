@@ -44,6 +44,8 @@ header{
     z-index: 11;
     cursor: pointer;
     display: none;
+    position: absolute;
+    right: 0;
 }
 .navbar{
     display: flex;

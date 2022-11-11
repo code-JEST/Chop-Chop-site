@@ -114,11 +114,61 @@ footer {
   } 
 /*Booking form*/
 #bookingform{
-    position: fixed;
-    left: 900px;
-    bottom: 600px;
+    text-align:center;
     font-size: var(--p-font);
 }
+  .gridtesting{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .gridcontainer{
+      display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .backgroundimage{ 
+      background-position: center;
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+      background-size:cover;
+      background-image:url();
+      position:relative;
+      width: 100%;
+      height: 100vh;
+  }
+  #backgroundbooking{
+      background-position: center;
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+      background-size:cover;
+      background-color:#1C2833;
+      background-image:url(/images/898-8984176_hd-pattern-design.png);
+      position:relative;
+      width: 100%;
+      height: 100vh;
+      color:white;
+      
+  }
+  input{
+      padding: 5px 15px;
+      margin:8px;
+      border-radius:3px solid gray;
+      cursor:pointer;
+  }
+  .inputdiv{
+      width:auto;
+      text-align:center;
+      margin-top:80px;
+  }
+  
+  .åpningstider{
+      text-align:center;
+  }
+  .tidene{
+      text-decoration: overline;
+      margin-top:20px;
+  }
 /*Sendt booking*/
 #sendtbooking{
     font-family: 'Passion One', cursive;

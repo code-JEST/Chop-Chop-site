@@ -7,74 +7,163 @@
     font-family: 'Open Sans', sans-serif;
 }
 :root{
-    --bg-color: #eaffb1;
-    --main-color: #ddbddb;
+    --bg-color: #DFDFDF;
+    --main-color: #B91728;
     --second-color: #1C2833;
     --text-color: #070707;
 
-    --p-font: 1rem;
+    --button-font: 1rem;
+    --p-font: 1.5rem;
+    --h3-font: 1.8rem;
     --h2-font: 2.5rem;
-    --h3-font: 5rem;
+    --h1-font: 4rem;
+    
 }
+/*HEADER*/
 header{
     z-index: 10;
     align-items: center;
-    padding: 20px 8%;
+    padding: 20px 18%;
     display: flex;
-    background-color: var(--second-color);
-    border-bottom: solid 1px;    
-   
 }
-.logo{
-    font-size: var(--h3-font);
-    color: var(--main-color);
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-right:10%;
-    display: inline;
+.logo_tekst{
+    margin-right: 20%;
+    margin-left: 20px;
+}
+#menu-icon{
+    color: var(--text-color);
+    font-size: 40px;
+    z-index: 11;
+    cursor: pointer;
+    display: none;
 }
 .navbar{
     display: flex;
 }
 .navbar a{
-    color: var(--main-color);
+    color: var(--second-color);
     font-size: 20px;
     padding: 12px 20px;
     border-radius: 10px;
     font-weight: 600;
     transition: ease .3s;
-    margin-left: 4px;
+    margin-left: 40px;
     }
 .navbar a:hover{
     color: var(--bg-color);
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     box-shadow: 3px 5px 20px rgba(15, 15, 15, 0.5);
     border-radius: 4px;
 }
-.meny{
-    margin-left:20%;
-    margin-right:20%;
-    background-color: var(--bg-color);
-    padding: 3% 8% 3% 8%;
-    border:groove 5px var(--second-color);
-    display:inline-block;
-    z-index: 1;
-    position:absolute;
+/*HOME*/
+#home{
+    /*BARE EN TEST FOR BILDE*/
+    background-image: url(/images/eating-gdbe7da72e_1920.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    align-items: center;
+    text-align: center;
+}
+.home-tekst h1{
+    font-family: 'Passion One', cursive;
+    font-size: var(--h1-font);
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+.home-btn{
+    display: inline-block;
+    font-size: var(--button-font);
+    color: var(--bg-color);
+    border-radius: 10px;
+    background-color: var(--main-color);
+    padding: 10px 10px;
+    transition: ease-out 0.2s;
+}
+.home-btn:hover{
+    border-radius: 10px;
+    background-color: #80262f;
+    padding: 10px 10px;
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+}
+/*Booking form*/
+#bookingform{
+    position: fixed;
+    left: 900px;
+    bottom: 600px;
+    font-size: var(--p-font);
+}
+/*Sendt booking*/
+#sendtbooking{
+    font-family: 'Passion One', cursive;
+    font-size: var(--h1-font);
+    color: var(--main-color);
+    position: fixed;
+    left: 900px;
+    bottom: 600px;
 }
 
-body{
-    background-color: var(--main-color);
+
+
+
+/*MEDIA*/
+@media (max-width: 1400px){
+    :root{
+        --p-font: 1.4rem;
+        --h3-font: 1.7rem;
+        --h2-font: 2.4rem;
+        transition: .2s;
+	}
+    header{
+        padding: 17px 3%;
+        transition: .2s;
+    }
+    body {
+        background-color: rgb(32, 226, 14);
+      }
 }
-#bilder{
-    position:absolute;
-    z-index: 0;
-    display:block;
+@media (max-width: 1040px){
+    :root{
+        --button-font: 0.8rem;
+        --p-font: 1.2rem;
+        --h3-font: 1.6rem;
+        --h2-font: 2.2rem;
+        --h1-font: 3.5rem;
+        transition: .2s;
+	}
+    .navbar{
+        display: block;
+        text-align: center;
+    }
+    #menu-icon{
+		display: block;
+	}
+    body {
+        background-color: rgb(0, 160, 235);
+      }
 }
-#overskrift{
-    font-size: 40px;
-}
-.bakgrunnsbilde{
-    width:100%;
-    height:100%;
-    margin:0;   
-}
+@media (max-width: 575px) {
+    :root{
+        --p-font: 1rem;
+        --h3-font: 1.5rem;
+        --h2-font: 2rem;
+        --h1-font: 3rem;
+        transition: .2s;
+	}
+    header{
+        padding: 10px 2%;
+        transition: .2s;
+    }
+    body {
+      background-color: rgb(243, 14, 14);
+    }
+    .home-tekst h1{
+        font-size: 45px;
+        transition: .2s;
+    }
+  }

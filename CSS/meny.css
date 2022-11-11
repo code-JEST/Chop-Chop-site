@@ -1,0 +1,59 @@
+.gridtesting{
+    background-color: rgba(255, 255, 255, 0.8);
+  
+  font-size: var(--p-font);
+  border-bottom:solid 3px;
+
+}
+.gridcontainer{
+    display: flex;
+    flex-wrap: wrap;
+  grid-template-columns: 30% 30% 30%;
+  padding: 10px;
+}
+.måltid{
+    padding:20px;
+    position: relative;
+    flex:30%;
+}
+.måltid h2{
+    font-size: var(--h2-font);
+}
+.food{
+    display:block;
+    position: relative;
+    float:left;
+    height:200px;
+    margin-right: 10px;
+    margin-top: 16px;
+}
+.Meny{
+    text-align:center;
+    font-size: var(--h1-font);
+}
+.matrett{
+    margin-top:10px;
+    font-size:var(--h3-font);
+    margin-left:5%;
+}
+.allergi{
+    position: relative;
+    text-align: center;
+}
+hr{
+    display:block;
+    content: "";
+    border-style:solid;
+    background-color:#1C2833;
+    height:2px;
+    border-color:#1C2833;
+
+    border-radius:20px;
+    margin-bottom:5px;
+
+}
+@media(max-width: 800px){
+    .måltid{
+        flex:100%;
+    }
+}

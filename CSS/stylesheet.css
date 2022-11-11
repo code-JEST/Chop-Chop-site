@@ -103,13 +103,14 @@ footer {
     width: 100%;
   }
 .footer-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
   }
 .footer-item {
     padding: 10px;
-    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
   } 
 /*Booking form*/
 #bookingform{

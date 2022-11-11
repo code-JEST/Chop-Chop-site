@@ -94,18 +94,21 @@ header{
 }
 /*FOOTER*/
 footer {
-    text-align: center;
-    padding: 3px;
     background-color: var(--main-color);
     color: white;
+    font-size: var(--footer-font);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
-.grid-container {
+.footer-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    align-content: center;
   }
-.grid-item {
+.footer-item {
     padding: 10px;
-    font-size: var(--footer-font);
     text-align: center;
   } 
 /*Booking form*/

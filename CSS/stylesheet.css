@@ -245,13 +245,14 @@ footer {
         height: 96vh;
         display: none;
         flex-direction: column;
-        background: var(--bg-color);
+        background: rgba(15, 15, 15, 0.9);
         z-index: 10;
         align-items: center;
         padding: 20px 10px;
         transition: .2s;
     }
     .navbar a{
+        color: var(--bg-color);
         display: block;
         margin: 0.5rem 0;
     }

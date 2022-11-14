@@ -8,3 +8,6 @@ Bra at dere har klart å replikere utseende av magasinet, men jeg anbefaler å s
 
 accessibility:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex
+
+hamburger menu:
+https://www.youtube.com/watch?v=U3QMh9wpV0E

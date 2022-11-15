@@ -4,7 +4,11 @@
   font-size: var(--p-font);
   padding-top:100px;
   padding-bottom:100px;
-  border-top: solid 1px;
+  margin-left: 30%;
+  margin-right: 30%;
+  position: relative;
+  bottom:65px;
+
 
 }
 .gridcontainer{
@@ -33,8 +37,8 @@
 }
 .food2{
     display:block;
-    position: relative;
-    float:right;
+    position:absolute;
+    right: 10px;
     height:350px;
     margin-right: 10px;
     margin-top: 16px;
@@ -71,11 +75,17 @@ hr{
     font-size:var(--h2-font);
     color:black;
 }
-@media(max-width: 800px){
+@media(max-width: 1440px){
     .måltid{
         flex:100%;
     }
     .food{
-        height:200px;
+        height:300px;
+
+        transition: 0.3s;
+    }
+    .food2{
+        height:300px;
+        transition: 0.3s;
     }
 }

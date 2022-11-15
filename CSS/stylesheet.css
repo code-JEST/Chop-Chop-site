@@ -191,6 +191,9 @@ footer {
       text-decoration: overline;
       margin-top:20px;
   }
+  .footer-item a{
+    color: #ffffff;
+  }
 /*Sendt booking*/
 #sendtbooking{
     font-family: 'Passion One', cursive;

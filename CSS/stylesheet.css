@@ -170,7 +170,7 @@ footer {
       width: 100%;
       height: 100vh;
       color:white;
-      
+
   }
   input{
       padding: 5px 15px;
@@ -224,7 +224,7 @@ footer {
     }
     .logo_tekst{
         margin-right: 6vw;
-    }
+      }
 }
 @media (max-width: 1040px){
     :root{
@@ -263,7 +263,7 @@ footer {
     #menu-icon{
 		display: block;
         transition: .2s;
-	}
+      }
 }
 @media (max-width: 575px) {
     :root{
@@ -293,7 +293,7 @@ footer {
       .logo{
         height: 80px;
         transition: .4s;
-    }
+  }
     .logo_tekst{
         height: 80px;
         margin-left: 5px;

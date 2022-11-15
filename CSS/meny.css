@@ -2,6 +2,9 @@
     background-color: rgba(255, 255, 255, 0.8);
   
   font-size: var(--p-font);
+  padding-top:100px;
+  padding-bottom:100px;
+  border-top: solid 1px;
 
 }
 .gridcontainer{
@@ -71,5 +74,8 @@ hr{
 @media(max-width: 800px){
     .måltid{
         flex:100%;
+    }
+    .food{
+        height:200px;
     }
 }

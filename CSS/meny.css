@@ -8,6 +8,7 @@
   margin-right: 30%;
   position: relative;
   bottom:65px;
+  z-index: 1;
 
 
 }
@@ -32,7 +33,7 @@
     height:350px;
     margin-right: 10px;
     margin-top: 16px;
-    border-radius: 30px;
+    border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .food2{
@@ -42,8 +43,14 @@
     height:350px;
     margin-right: 10px;
     margin-top: 16px;
-    border-radius:30px;
+    border-radius:50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tittel{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    text-decoration: underline solid;
 }
 .Meny{
     text-align:center;
@@ -72,8 +79,23 @@ hr{
 }
 .sidelink{
     display:block;
-    font-size:var(--h2-font);
-    color:black;
+    font-size:var(--h3-font);
+    color: var(--text-color);
+    text-align: center;
+    margin:0px;
+    padding:7px;
+}
+.a-blokk{
+    width:140px;
+    border:3px solid;
+    position: fixed;
+    right:5px;
+    top:5px;
+    z-index: 4;
+    background-color: white;
+}
+.sidelink:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media(max-width: 1440px){
     .måltid{
@@ -87,5 +109,12 @@ hr{
     .food2{
         height:300px;
         transition: 0.3s;
+    }
+
+}
+@media(max-width: 1650px){
+    .a-blokk{
+        top:200px;
+        transition:0.3s;
     }
 }

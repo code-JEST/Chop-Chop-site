@@ -172,6 +172,11 @@ footer {
       color:white;
 
   }
+  .access{
+    display:block;
+    width: 70%;
+    margin: 40px;
+  }
   input{
       padding: 5px 15px;
       margin:8px;
@@ -201,6 +206,9 @@ footer {
     margin-top: 16px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:30%;
+    height: 40%;
+    transition: 0.2s;
   }
 /*Sendt booking*/
 #sendtbooking{
@@ -326,5 +334,8 @@ footer {
         height: 80px;
         margin-left: 5px;
         transition: .4s;
+    }
+    .googlemaps{
+        display:none;
     }
   }

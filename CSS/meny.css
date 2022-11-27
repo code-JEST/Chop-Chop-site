@@ -127,11 +127,13 @@ hr{
         float:none;
         margin-left: auto;
         margin-right:auto;
-        position: static;    }
+        position: static;
+        transition: 0.3s;    }
     .food2{
         margin-left: auto;
         margin-right:auto;
         position: static;   
+        transition: 0.3s;
 
     }
     .a-blokk{

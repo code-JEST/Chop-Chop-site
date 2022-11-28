@@ -172,6 +172,11 @@ footer {
       color:white;
 
   }
+  .access{
+    display:block;
+    width: 70%;
+    margin: 40px;
+  }
   input{
       padding: 5px 15px;
       margin:8px;
@@ -194,14 +199,25 @@ footer {
   .footer-item a{
     color: #ffffff;
   }
+  .googlemaps{
+    display:block;
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:30%;
+    height: 40%;
+    transition: 0.2s;
+  }
 /*Sendt booking*/
 #sendtbooking{
-    font-family: 'Passion One', cursive;
     font-size: var(--h1-font);
-    color: var(--main-color);
-    position: fixed;
-    left: 900px;
-    bottom: 600px;
+    color: var(--bg-color);
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top:200px;
 }
 
 
@@ -318,5 +334,8 @@ footer {
         height: 80px;
         margin-left: 5px;
         transition: .4s;
+    }
+    .googlemaps{
+        display:none;
     }
   }

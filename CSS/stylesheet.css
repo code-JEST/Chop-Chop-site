@@ -226,8 +226,7 @@ footer {
 /*MEDIA*/
 @media (max-width: 1400px){
     :root{
-        --footer-font: 0.9rem;
-        --footer-font: 0.9rem;
+        --footer-font: 0.86rem;
         --p-font: 1.4rem;
         --h3-font: 1.7rem;
         --h2-font: 2.4rem;
@@ -235,7 +234,6 @@ footer {
 	}
     header{
         padding: 17px 3%;
-        transition: .5s;
         transition: .5s;
     }
     .logo_tekst{
@@ -247,7 +245,6 @@ footer {
 }
 @media (max-width: 1040px){
     :root{
-        --footer-font: 0.8rem;
         --footer-font: 0.8rem;
         --button-font: 0.8rem;
         --p-font: 1.2rem;

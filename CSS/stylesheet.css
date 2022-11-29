@@ -7,10 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 :root{
-    --bg-color: #5463FF;
+    --bg-color: #f74343;
     --main-color: #B91728;
     --second-color: #F2F2F2;
-    --nav-color: #eedb35;
+    --nav-color: #910303;
     --text-color: #030303;
 
     --footer-font: 1rem;
@@ -71,7 +71,7 @@ header{
     margin-left: 40px;
     }
 .navbar a:hover{
-    color: var(--bg-color);
+    color: var(--second-color);
     background-color: var(--nav-color);
     box-shadow: 3px 5px 20px rgba(15, 15, 15, 0.5);
     border-radius: 4px;
@@ -114,7 +114,7 @@ header{
 }
 /*FOOTER*/
 footer {
-    background-color: #748da5;
+    background-color: #222222;
     color: white;
     font-size: var(--footer-font);
     position: fixed;

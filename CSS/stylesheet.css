@@ -125,15 +125,16 @@ footer {
     justify-content: center;
     padding: 10px;
     transition: .2s;
-    transition: .2s;
   }
 .footer-item {
     padding: 10px;
     margin-left: 10%;
     margin-right: 10%;
     transition: .2s;
-    transition: .2s;
   } 
+.footer-åpningtider{
+    font-size: 0.7rem;
+}
 /*Booking form*/
 #bookingform{
     text-align:center;

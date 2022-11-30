@@ -18,6 +18,7 @@
     --h3-font: 1.8rem;
     --h2-font: 2.5rem;
     --h1-font: 4rem;
+    --h1-ekstra-font: 5rem;
     transition: .2s;
     
 }
@@ -90,13 +91,10 @@ header{
 }
 .home-tekst h1{
     font-family: 'Passion One', cursive;
-    font-size: var(--h1-font);
+    font-size: var(--h1-ekstra-font);
     color: var(--main-color);
     margin-bottom: 15px;
-}
-.home-tekst h1 span{
-    background-color: rgba(255, 255, 255, 0.822);
-    padding: 0px 10px 0px 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.993);
 }
 .home-btn{
     display: inline-block;

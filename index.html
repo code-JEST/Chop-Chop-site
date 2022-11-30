@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 
 
 
@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Chop Chop</title>
+    <link rel="icon" type="image/icon-x" href="./images/chopchop-logo.png">
     <!--Eget stylesheet-->
     <link rel="stylesheet" href="CSS/stylesheet.css">
 
@@ -16,10 +16,10 @@
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-    <!--FONTS-->
+    <!--FONTS fra Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Passion+One:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -27,25 +27,60 @@
 
 
 <body>
+  <div id="hele">
 <!--Header-->
 <header>
-  <img src="/images/Jigglypuff-DELETME.png" alt="Jigglypuff" width="100" height="100">
-  <a href="#" class="logo">Jigglypuff</a>  
+  <!--BEGGE LOGOER ER LAGET SELV-->
+  <a href="index.html">
+    <img src="./images/chopchop-logo.png" alt="Logo" class="logo">   
+    <img src="./images/chochop-black.png" alt="Logo" class="logo_tekst">
+    </a>
+     <!--Navigation icon-->
+     <div class="bx bx-menu" id="menu-icon"></div>
     <!--Navigation Bar-->
-  <ul class="navbar">
-    <li><a href="booking.html">Booking</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="accessibility.html">Accessibility</a></li>
-    <li><a href="topical.html">Topical</a></li>
-  </ul>
+        <ul class="navbar">
+        <li><a href="booking.html">Reserver</a></li>
+        <li><a href="menu.html">Meny</a></li>
+        <li><a href="accessibility.html">Tilgjengelighet</a></li>
+        <li><a href="topical.html">Aktuelt</a></li>
+        </ul>
 
 </header>
+<!--Home-->
+<section id="home">
+  <div class="home-tekst">
+    <h1>Autentisk koreansk mat.</h1>
+    <a href="booking.html" class="home-btn">Reserver bord</a>
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer>
+  <div class="footer-container">
+    <div class="footer-item">
+      <h2>Adresse</h2>
+      <p><a href="https://www.google.com/maps/place/Lilleakerveien+18,+0283+Oslo/@59.9166276,10.633878,17z/data=!3m1!4b1!4m5!3m4!1s0x46416cfc66a6f08b:0xb29b0873c1aab21d!8m2!3d59.9166249!4d10.6360667?hl=en">Lilleakerveien 18</a></p>
+      <p><a href="https://www.google.com/maps/place/Lilleakerveien+18,+0283+Oslo/@59.9166276,10.633878,17z/data=!3m1!4b1!4m5!3m4!1s0x46416cfc66a6f08b:0xb29b0873c1aab21d!8m2!3d59.9166249!4d10.6360667?hl=en">0283 Oslo</a></p>
+    </div>
+    <div class="footer-item">
+      <h2>Kontakt oss</h2>
+      <p><a href="mailto:booking@chop-chop.com">booking@chop-chop.com</a></p>
+      <p>+47 95836753</p>
+    </div>
+    <div class="footer-item">
+      <h2>Våre Åpningstider:</h2>
+        <p>Mandag - Torsdag 10:00 - 21:30</p>
+        <p>Fredag - Lørdag 10:00 - 23:00</p>
+        <p>Søndag 12:00 - 22:00</p>
+    </div>
+  </div>
+</footer>
 
 
+</div>
 
-<!--Skrev bare for å kjenne igjen siden-->
-<h1>Index</h1>
-    
+<!--JAVASCRIPT-->
+<script src="Javascript/script.js"></script>
 </body>
 
 

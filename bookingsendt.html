@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Booking</title>
+    <link rel="icon" type="image/icon-x" href="./images/chopchop-logo.png">
 <!--Eget stylesheet-->
 <link rel="stylesheet" href="CSS/stylesheet.css">
-<link rel="stylesheet" href="/css/booking.css">
 
 <!--BOXICONS stylesheet-->
 <link rel="stylesheet"
@@ -22,22 +22,36 @@ href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 <body>
     <header>
       <!--BEGGE LOGOER ER LAGET SELV-->
-  <a href="index.html">
-    <img src="./images/chopchop-logo.png" alt="Logo" width="100" height="100">
-    </a>
-    <a href="index.html" class="logo">
-      <img src="./images/chochop-black.png" alt="Logo" height="100">
-      </a>  
+        <a href="index.html">
+          <img src="./images/chopchop-logo.png" alt="Logo" class="logo">   
+          <img src="./images/chochop-black.png" alt="Logo" class="logo_tekst">
+          </a>
+          <!--Navigation icon-->
+          <div class="bx bx-menu" id="menu-icon"></div>
           <!--Navigation Bar-->
         <ul class="navbar">
-          <li><a href="booking.html">Booking</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="accessibility.html">Accessibility</a></li>
-          <li><a href="topical.html">Topical</a></li>
+          <li><a href="booking.html">Reserver</a></li>
+          <li><a href="menu.html">Meny</a></li>
+          <li><a href="accessibility.html">Tilgjengelighet</a></li>
+          <li><a href="topical.html">Aktuelt</a></li>
         </ul>
       
       </header>
+      <section id="backgroundbooking">
+        
+        <h1 id="sendtbooking">Booking sendt</h1>
+      <ul class="åpningstider">
 
-    <h1 id="sendtbooking">Booking er sendt</h1>
+        <p>Våre Åpningstider:</p>
+          <li class="tidene">Mandag - Torsdag 10:00 - 21:30</li>
+          <li class="tidene">Fredag - Lørdag 10:00 - 23:00</li>
+          <li class="tidene">Søndag 12:00 - 22:00</li>
+        </ul>
+      </section>
+
+
+
+      <!--JAVASCRIPT-->
+<script src="Javascript/script.js"></script>
 </body>
 </html>

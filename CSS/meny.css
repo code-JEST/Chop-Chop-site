@@ -1,0 +1,166 @@
+.gridtesting{
+  
+  font-size: var(--p-font);
+  padding-top:100px;
+  padding-bottom:50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  position: relative;
+  bottom:65px;
+  z-index: 1;
+
+
+}
+.gridcontainer{
+    display: flex;
+    flex-wrap: wrap;
+  grid-template-columns: 30% 30% 30%;
+  margin:0px;
+  padding: 0px;
+}
+.måltid{
+    position: relative;
+    flex:100%;
+    margin:0px;
+}
+.måltid h2{
+    font-size: var(--h2-font);
+}
+.food{
+    display:block;
+    position: relative;
+    float:left;
+    height:350px;
+    margin-right: 10px;
+    margin-left:30px;
+    margin-top: 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.food2{
+    display:block;
+    position:absolute;
+    right: 20px;
+    height:350px;
+    margin-right: 10px;
+    margin-top: 16px;
+    border-radius:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tittel{
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    text-decoration: underline solid;
+}
+.Meny{
+    text-align:center;
+    font-size: var(--h1-font);
+}
+.matrett{
+    margin-top:100px;
+    font-size:var(--h3-font);
+    margin-left:5%;
+}
+.allergi{
+    position: relative;
+    text-align: center;
+}
+hr{
+    display:block;
+    content: "";
+    border-style:solid;
+    background-color:#1C2833;
+    height:2px;
+    border-color:#1C2833;
+
+    border-radius:20px;
+    margin-bottom:5px;
+
+}
+.sidelink{
+    display:block;
+    font-size:var(--h3-font);
+    color: var(--text-color);
+    text-align: center;
+    margin:0px;
+    padding:7px;
+}
+.a-blokk{
+    width:140px;
+    border:3px solid;
+    position: fixed;
+    right:5px;
+    top:5px;
+    z-index: 4;
+    background-color: white;
+}
+.sidelink:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.allergibilder{
+    height:50px;
+    width:50px;
+}
+.matbox{
+    background-color:var(--red-color);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 80%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.matbox2{
+    background-color: var(--maroon-color);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 80%;   
+    position:relative;
+    margin-left:20%;
+
+}
+@media(max-width: 1440px){
+    .måltid{
+        flex:100%;
+    }
+    .food{
+        height:300px;
+
+        transition: 0.3s;
+    }
+    .food2{
+        height:300px;
+        transition: 0.3s;
+    }
+
+}
+@media(max-width: 1650px){
+    .a-blokk{
+        top:200px;
+        transition:0.3s;
+    }
+}
+@media(max-width:1100px){
+    .food{
+        float:none;
+        margin-left: auto;
+        margin-right:auto;
+        position: static;
+        transition: 0.3s;    }
+    .food2{
+        margin-left: auto;
+        margin-right:auto;
+        position: static;   
+        transition: 0.3s;
+
+    }
+    .a-blokk{
+        display:none;
+    }
+    .gridtesting{
+        background-color:initial;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom:solid 3px;
+    }
+}

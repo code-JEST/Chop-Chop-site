@@ -1,52 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<<<<<<< Updated upstream
-=======
+    <title>Booking</title>
+    <link rel="icon" type="image/icon-x" href="./images/chopchop-logo.png">
 <!--Eget stylesheet-->
 <link rel="stylesheet" href="CSS/stylesheet.css">
-<link rel="stylesheet" href="/css/booking.css">
->>>>>>> Stashed changes
 
-    <!--Eget stylesheet-->
-    <link rel="stylesheet" href="CSS/stylesheet.css">
+<!--BOXICONS stylesheet-->
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-    <!--BOXICONS stylesheet-->
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!--FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
 </head>
-
-
-
-
 <body>
-<!--Header-->
-<header>
-  <a href="index.html"><img src="/images/Jigglypuff-DELETME.png" alt="Jigglypuff" width="100" height="100"></a>
-  <a href="index.html" class="logo">Jigglypuff</a>  
-    <!--Navigation Bar-->
-  <ul class="navbar">
-    <li><a href="booking.html">Booking</a></li>
-    <li><a href="menu.html">Menu</a></li>
-    <li><a href="accessibility.html">Accessibility</a></li>
-    <li><a href="topical.html">Topical</a></li>
-  </ul>
+    <header>
+      <!--BEGGE LOGOER ER LAGET SELV-->
+      <a href="index.html">
+        <img src="./images/chopchop-logo.png" alt="Logo" class="logo">   
+        <img src="./images/chochop-black.png" alt="Logo" class="logo_tekst">
+        </a>
+          <!--Navigation icon-->
+          <div class="bx bx-menu" id="menu-icon"></div>
+          <!--Navigation Bar-->
+        <ul class="navbar">
+          <li><a href="booking.html">Reserver</a></li>
+          <li><a href="menu.html">Meny</a></li>
+          <li><a href="accessibility.html">Tilgjengelighet</a></li>
+          <li><a href="topical.html">Aktuelt</a></li>
+        </ul>
+      
+      </header>
+      <section id="backgroundbooking">
+        
+      <!--BOOKING-->
+      <div class="inputdiv"></div>
+      <form action="bookingsendt.html" id="bookingform">
+        <label for="fname">Fornavn:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Etternavn:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name ='email'><br>
+        <label for="tel">Mobil nummer:</label><br>
+        <input type="tel"><br>
+        <label for="date">Dato:</label><br>
+        <input type="date" name="date"><br>
+        <label for="time">Tid:</label><br>
+        <input type='time'><br>
+        <label for="number">Antall gjester:</label><br>
+        <input type="number">
+        <input type="submit" value="Send">
+      </form> 
+    </div>
+    <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9350719495474!2d10.636066699999999!3d59.91662489999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416cfc66a6f08b%3A0xb29b0873c1aab21d!2sLilleakerveien%2018%2C%200283%20Oslo!5e0!3m2!1sen!2sno!4v1668696835322!5m2!1sen!2sno" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+      <ul class="åpningstider">
+        <p>Våre Åpningstider:</p>
+          <li class="tidene">Mandag - Torsdag 10:00 - 21:30</li>
+          <li class="tidene">Fredag - Lørdag 10:00 - 23:00</li>
+          <li class="tidene">Søndag 12:00 - 22:00</li>
+        </ul>
+      </section>
 
-</header>
-<!--Skrev bare for å kjenne igjen siden-->
-<h1>Booking</h1>
+
+
+      <!--JAVASCRIPT-->
+<script src="Javascript/script.js"></script>
 </body>
 </html>

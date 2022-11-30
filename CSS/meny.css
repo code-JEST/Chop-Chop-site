@@ -32,6 +32,7 @@
     float:left;
     height:350px;
     margin-right: 10px;
+    margin-left:30px;
     margin-top: 16px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -39,7 +40,7 @@
 .food2{
     display:block;
     position:absolute;
-    right: 10px;
+    right: 20px;
     height:350px;
     margin-right: 10px;
     margin-top: 16px;
@@ -103,13 +104,20 @@ hr{
 }
 .matbox{
     background-color:var(--red-color);
-    border: solid 3px 0px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 80%;
+    margin-top:20px;
     margin-bottom:20px;
 }
 .matbox2{
     background-color: var(--maroon-color);
-    border: solid 3px;
-    margin-bottom:20px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 80%;   
+    position:relative;
+    margin-left:20%;
+
 }
 @media(max-width: 1440px){
     .måltid{

@@ -5,9 +5,8 @@
   padding-top:100px;
   padding-bottom:50px;
   margin-left: 30%;
-  margin-right: 30%;
   position: relative;
-  bottom:65px;
+  bottom:90px;
   z-index: 1;
 
 
@@ -64,10 +63,6 @@
     margin-top:100px;
     font-size:var(--h3-font);
     margin-left:5%;
-}
-.allergi{
-    position: relative;
-    text-align: center;
 }
 hr{
     display:block;

@@ -7,10 +7,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 :root{
-    --bg-color: #5463FF;
+    --bg-color: #bdb03d;
     --main-color: #B91728;
     --second-color: #F2F2F2;
-    --nav-color: #eedb35;
+    --nav-color: #686217;
     --text-color: #030303;
 
     --footer-font: 1rem;
@@ -71,7 +71,7 @@ header{
     margin-left: 40px;
     }
 .navbar a:hover{
-    color: var(--bg-color);
+    color: var(--second-color);
     background-color: var(--nav-color);
     box-shadow: 3px 5px 20px rgba(15, 15, 15, 0.5);
     border-radius: 4px;
@@ -114,7 +114,7 @@ header{
 }
 /*FOOTER*/
 footer {
-    background-color: #748da5;
+    background-color: var(--main-color);
     color: white;
     font-size: var(--footer-font);
     position: fixed;
@@ -228,7 +228,8 @@ footer {
 /*MEDIA*/
 @media (max-width: 1400px){
     :root{
-        --footer-font: 0.86rem;
+        --footer-font: 0.9rem;
+        --footer-font: 0.9rem;
         --p-font: 1.4rem;
         --h3-font: 1.7rem;
         --h2-font: 2.4rem;
@@ -236,6 +237,7 @@ footer {
 	}
     header{
         padding: 17px 3%;
+        transition: .5s;
         transition: .5s;
     }
     .logo_tekst{
@@ -247,6 +249,7 @@ footer {
 }
 @media (max-width: 1040px){
     :root{
+        --footer-font: 0.8rem;
         --footer-font: 0.8rem;
         --button-font: 0.8rem;
         --p-font: 1.2rem;

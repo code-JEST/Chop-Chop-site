@@ -11,6 +11,7 @@
     --main-color: #B91728;
     --second-color: #ee3232;
     --text-color: #030303;
+    --nav-color: #ffffff;
 
     --footer-font: 1rem;
     --button-font: 1rem;
@@ -61,7 +62,7 @@ header{
     display: flex;
 }
 .navbar a{
-    color: var(--second-color);
+    color: var(--nav-color);
     font-size: 20px;
     padding: 12px 20px;
     border-radius: 10px;

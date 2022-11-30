@@ -2,6 +2,7 @@
     background-color: rgba(255, 255, 255, 0.8);
   
   font-size: var(--p-font);
+  color: var(--text-color);
   padding-top:100px;
   padding-bottom:100px;
   margin-left: 30%;
@@ -25,6 +26,7 @@
 }
 .måltid h2{
     font-size: var(--h2-font);
+    color: var(--text-color);
 }
 .food{
     display:block;
@@ -55,6 +57,7 @@
 .Meny{
     text-align:center;
     font-size: var(--h1-font);
+    color: var(--text-color);
 }
 .matrett{
     margin-top:100px;
@@ -79,23 +82,28 @@ hr{
 }
 .sidelink{
     display:block;
-    font-size:var(--h3-font);
-    color: var(--text-color);
+    font-size: 2rem;
+    color: #3d090e;
+    background-color: #B91728;
+    border-radius: 50%;
     text-align: center;
     margin:0px;
     padding:7px;
+    margin-top: 10px;
+    transition: 0.2s;
 }
 .a-blokk{
-    width:140px;
-    border:3px solid;
+    margin-top: 190px;
+    margin-right:40px;
     position: fixed;
     right:5px;
     top:5px;
     z-index: 4;
-    background-color: white;
 }
 .sidelink:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: drop-shadow(3px 5px 10px rgba(0, 0, 0, 0.267));
+    border-radius: 40%;
+    transition: 0.2s;
 }
 @media(max-width: 1440px){
     .måltid{
@@ -113,10 +121,6 @@ hr{
 
 }
 @media(max-width: 1650px){
-    .a-blokk{
-        top:200px;
-        transition:0.3s;
-    }
 }
 .allergibilder{
     height:50px;

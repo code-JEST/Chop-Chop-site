@@ -13,7 +13,7 @@
     --text-color: #070707;
 
     --footer-font: 1rem;
-    --button-font: 1rem;
+    --button-font: 1.3rem;
     --p-font: 1.5rem;
     --h3-font: 1.8rem;
     --h2-font: 2.5rem;
@@ -93,6 +93,10 @@ header{
     font-size: var(--h1-font);
     color: var(--main-color);
     margin-bottom: 15px;
+}
+.home-tekst h1 span{
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 0px 10px 0px 10px;
 }
 .home-btn{
     display: inline-block;
@@ -247,7 +251,7 @@ footer {
 @media (max-width: 1040px){
     :root{
         --footer-font: 0.8rem;
-        --button-font: 0.8rem;
+        --button-font: 1.1rem;
         --p-font: 1.2rem;
         --h3-font: 1.6rem;
         --h2-font: 2.2rem;
@@ -269,7 +273,7 @@ footer {
         transition: .2s;
     }
     .navbar a{
-        color: var(--bg-color);
+        color: #ffffff;
         display: block;
         margin: 0.5rem 0;
     }

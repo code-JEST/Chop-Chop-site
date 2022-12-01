@@ -139,6 +139,12 @@ footer {
 #bookingform{
     text-align:center;
     font-size: var(--p-font);
+    width:30%;
+    margin-left:65%;
+    background-color: lightgrey;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  
 }
   .gridtesting{
     padding: 20px;
@@ -189,6 +195,7 @@ footer {
       width:auto;
       text-align:center;
       margin-top:20px;
+      
   }
   
   .åpningstider{

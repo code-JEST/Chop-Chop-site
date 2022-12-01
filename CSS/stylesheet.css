@@ -38,7 +38,6 @@ header{
 .logo{
     height: 100px;
     transition: .4s;
-    transition: .5s;
 }
 .logo{
     height: 100px;
@@ -48,7 +47,6 @@ header{
     height: 100px;
     margin-right: 16vw;
     height: 100px;
-    margin-right: 16vw;
     margin-left: 20px;
     transition: .2s;
 }

@@ -17,7 +17,7 @@
     margin-left: 10%;
     margin-right: 37%;
     position: relative;
-    bottom:90px;
+    bottom:30px;
     z-index: 1;
     text-align: center;
   }
@@ -138,10 +138,12 @@ hr{
     .food{
         height:300px;
         transition: 0.3s;
+        margin-top:25px;
     }
     .food2{
         height:300px;
         transition: 0.3s;
+        top:25px;
     }
     .matbox{
         background-color:var(--red-color);
@@ -163,7 +165,12 @@ hr{
         margin-left:20%;
         transition: 0.3s;
     }
-
+    .gridtesting{
+        bottom:90px;
+    }
+    .gridtesting2{
+        bottom:90px;
+    }
 
 }
 @media(max-width: 1650px){

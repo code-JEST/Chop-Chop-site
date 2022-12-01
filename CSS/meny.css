@@ -1,3 +1,6 @@
+body{
+    background-color: #1b2241;
+}
 .gridtesting{
   font-size: var(--p-font);
   color: var(--text-color);

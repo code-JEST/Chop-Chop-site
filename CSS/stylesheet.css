@@ -12,6 +12,9 @@
     --second-color: #ee3232;
     --text-color: #030303;
     --nav-color: #ffffff;
+    --menytext-color:#ffffff;
+    --boks1-color:#293B5F;
+    --boks2-color:#47597E;
 
     --footer-font: 1rem;
     --button-font: 1.3rem;
@@ -143,13 +146,20 @@ footer {
 #bookingform{
     text-align:center;
     font-size: var(--p-font);
+    width:30%;
+    margin-left:65%;
+    background-color: lightgrey;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  
 }
   .gridtesting{
     padding: 20px;
     font-size: 30px;
     text-align: center;
+
   }
-  .gridcontainer{
+  #gridcontainer{
       display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
@@ -191,11 +201,13 @@ footer {
   .inputdiv{
       width:auto;
       text-align:center;
-      margin-top:80px;
+      margin-top:20px;
+      
   }
   
   .åpningstider{
       text-align:center;
+
   }
   .tidene{
       text-decoration: overline;
@@ -211,8 +223,8 @@ footer {
     margin-top: 16px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:30%;
-    height: 40%;
+    width:25%;
+    height: 35%;
     transition: 0.2s;
   }
 /*Sendt booking*/

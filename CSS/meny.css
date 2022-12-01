@@ -3,7 +3,7 @@ body{
 }
 .gridtesting{
   font-size: var(--p-font);
-  color: var(--text-color);
+  color: var(--menytext-color);
   padding-top:100px;
   padding-bottom:50px;
   margin-left: 37%;
@@ -14,7 +14,7 @@ body{
 }
 .gridtesting2{
     font-size: var(--p-font);
-    color: var(--text-color);
+    color: var(--menytext-color);
     padding-top:100px;
     padding-bottom:50px;
     margin-left: 10%;
@@ -38,7 +38,7 @@ body{
 }
 .måltid h2{
     font-size: var(--h2-font);
-    color: var(--text-color);
+    color: var(--menytext-color);
 }
 .food{
     display:block;
@@ -71,7 +71,7 @@ body{
 .Meny{
     text-align:center;
     font-size: var(--h1-font);
-    color: var(--text-color);
+    color: var(--menytext-color);
 }
 .matrett{
     margin-top:100px;
@@ -120,13 +120,13 @@ hr{
     width:50px;
 }
 .matbox{
-    background-color:var(--main-color);
+    background-color:var(--boks1-color);
     border-top-right-radius: 500px;
     width: 80%;
     height:450px;   
 }
 .matbox2{
-    background-color: var(--second-color);
+    background-color: var(--boks2-color);
     border-bottom-left-radius: 500px;
     width: 80%;
     height:450px;   

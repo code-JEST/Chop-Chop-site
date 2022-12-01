@@ -117,13 +117,13 @@ hr{
     width:50px;
 }
 .matbox{
-    background-color:var(--red-color);
+    background-color:var(--main-color);
     border-top-right-radius: 500px;
     width: 80%;
     height:450px;   
 }
 .matbox2{
-    background-color: var(--maroon-color);
+    background-color: var(--second-color);
     border-bottom-left-radius: 500px;
     width: 80%;
     height:450px;   

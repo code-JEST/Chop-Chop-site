@@ -1,16 +1,26 @@
 .gridtesting{
-  
   font-size: var(--p-font);
   color: var(--text-color);
   padding-top:100px;
   padding-bottom:50px;
-  margin-left: 30%;
+  margin-left: 37%;
+  margin-right: 10%;
   position: relative;
   bottom:90px;
   z-index: 1;
-
-
 }
+.gridtesting2{
+    font-size: var(--p-font);
+    color: var(--text-color);
+    padding-top:100px;
+    padding-bottom:50px;
+    margin-left: 10%;
+    margin-right: 37%;
+    position: relative;
+    bottom:90px;
+    z-index: 1;
+    text-align: center;
+  }
 .gridcontainer{
     display: flex;
     flex-wrap: wrap;

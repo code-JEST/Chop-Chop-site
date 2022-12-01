@@ -250,7 +250,7 @@ footer {
         margin-right: 6vw;
       }
 }
-@media (max-width: 1040px){
+@media (max-width: 1085px){
     :root{
         --footer-font: 0.8rem;
         --button-font: 0.8rem;

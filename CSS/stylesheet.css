@@ -7,22 +7,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 :root{
-    --bg-color: #DFDFDF;
+    --bg-color: #1b2241;
     --main-color: #B91728;
-    --second-color: #1C2833;
-    --text-color: #070707;
-    
+    --second-color: #ee3232;
+    --text-color: #030303;
+    --nav-color: #ffffff;
+
     --footer-font: 1rem;
-    --button-font: 1rem;
+    --button-font: 1.3rem;
     --p-font: 1.5rem;
     --h3-font: 1.8rem;
     --h2-font: 2.5rem;
     --h1-font: 4rem;
+    --h1-ekstra-font: 5rem;
     transition: .2s;
     
 }
 /*HEADER*/
 header{
+    background-color: var(--bg-color);
     z-index: 10;
     align-items: center;
     padding: 20px 18%;
@@ -32,6 +35,7 @@ header{
 .logo{
     height: 100px;
     transition: .4s;
+    transition: .5s;
 }
 .logo{
     height: 100px;
@@ -41,6 +45,7 @@ header{
     height: 100px;
     margin-right: 16vw;
     height: 100px;
+    margin-right: 16vw;
     margin-left: 20px;
     transition: .2s;
 }
@@ -58,7 +63,7 @@ header{
     display: flex;
 }
 .navbar a{
-    color: var(--second-color);
+    color: var(--nav-color);
     font-size: 20px;
     padding: 12px 20px;
     border-radius: 10px;
@@ -67,7 +72,7 @@ header{
     margin-left: 40px;
     }
 .navbar a:hover{
-    color: var(--bg-color);
+    color: var(--nav-color);
     background-color: var(--main-color);
     box-shadow: 3px 5px 20px rgba(15, 15, 15, 0.5);
     border-radius: 4px;
@@ -88,9 +93,10 @@ header{
 }
 .home-tekst h1{
     font-family: 'Passion One', cursive;
-    font-size: var(--h1-font);
+    font-size: var(--h1-ekstra-font);
     color: var(--main-color);
     margin-bottom: 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.993);
 }
 .home-btn{
     display: inline-block;
@@ -251,10 +257,10 @@ footer {
         margin-right: 6vw;
       }
 }
-@media (max-width: 1085px){
+@media (max-width: 1040px){
     :root{
         --footer-font: 0.8rem;
-        --button-font: 0.8rem;
+        --button-font: 1.1rem;
         --p-font: 1.2rem;
         --h3-font: 1.6rem;
         --h2-font: 2.2rem;
@@ -276,7 +282,7 @@ footer {
         transition: .2s;
     }
     .navbar a{
-        color: var(--bg-color);
+        color: #ffffff;
         display: block;
         margin: 0.5rem 0;
     }

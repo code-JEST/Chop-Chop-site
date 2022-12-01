@@ -142,11 +142,11 @@ footer {
     text-align:center;
     font-size: var(--p-font);
     width:30%;
-    margin-left:65%;
-    background-color: lightgrey;
-  border: 7px solid rgb(255, 255, 255);
+    margin-left:68%;
+    background-color: white;
+  border: 7px solid lightgrey;
   border-radius: 50px;
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
   .gridtesting{
     padding: 20px;
@@ -179,7 +179,6 @@ footer {
       position:relative;
       width: 100%;
       height: 100vh;
-      color:white;
 
   }
   .access{
@@ -202,7 +201,15 @@ footer {
   
   .åpningstider{
       text-align:center;
-
+      position:absolute;
+      width:30%;
+      margin-left:30%;
+      margin-top:20px;
+      background-color: white;
+      border: 7px solid lightgrey;
+      border-radius: 50px;
+      padding:20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .tidene{
       text-decoration: overline;
@@ -221,6 +228,7 @@ footer {
     width:25%;
     height: 35%;
     transition: 0.2s;
+    margin-left:1%;
   }
 /*Sendt booking*/
 #sendtbooking{

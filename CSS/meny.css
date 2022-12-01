@@ -6,7 +6,7 @@
   margin-left: 37%;
   margin-right: 10%;
   position: relative;
-  bottom:90px;
+  bottom:0px;
   z-index: 1;
 }
 .gridtesting2{
@@ -43,8 +43,9 @@
     float:left;
     height:350px;
     margin-right: 10px;
-    margin-left:30px;
-    margin-top: 16px;
+    margin-left:3%;
+    margin-top: 50px;
+    margin-bottom:auto;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -53,8 +54,8 @@
     position:absolute;
     right: 20px;
     height:350px;
-    margin-right: 10px;
-    margin-top: 16px;
+    margin-right: 3%;
+    top: 50px;
     border-radius:50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -117,20 +118,18 @@ hr{
 }
 .matbox{
     background-color:var(--red-color);
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
+    border-top-right-radius: 500px;
     width: 80%;
-    margin-top:20px;
-    margin-bottom:20px;
+    height:450px;   
 }
 .matbox2{
     background-color: var(--maroon-color);
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
-    width: 80%;   
+    border-bottom-left-radius: 500px;
+    width: 80%;
+    height:450px;   
     position:relative;
     margin-left:20%;
-
+    margin-bottom:20px;
 }
 @media(max-width: 1440px){
     .måltid{
@@ -138,13 +137,33 @@ hr{
     }
     .food{
         height:300px;
-
         transition: 0.3s;
     }
     .food2{
         height:300px;
         transition: 0.3s;
     }
+    .matbox{
+        background-color:var(--red-color);
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 80%;
+        height:350px;
+        margin-top:20px;
+        margin-bottom:20px;
+        transition: 0.3s;
+    }
+    .matbox2{
+        background-color: var(--maroon-color);
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        height:350px;
+        width: 80%;   
+        position:relative;
+        margin-left:20%;
+        transition: 0.3s;
+    }
+
 
 }
 @media(max-width: 1650px){

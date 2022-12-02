@@ -104,7 +104,7 @@ header{
 .home-btn{
     display: inline-block;
     font-size: var(--button-font);
-    color: var(--bg-color);
+    color: var(--nav-color);
     border-radius: 10px;
     background-color: var(--main-color);
     padding: 10px 10px;
@@ -313,28 +313,11 @@ footer {
         transition: .2s;
     }
     .footer-container {
-        padding: 2px;
+        padding: 9px;
         transition: .2s;
       }
     .footer-item {
-        padding: 6px;
-        transition: .2s;
-      } 
-      .logo{
-        height: 80px;
-        transition: .4s;
-  }
-    .logo_tekst{
-        height: 80px;
-        margin-left: 5px;
-        transition: .4s;
-    }
-    .footer-container {
-        padding: 2px;
-        transition: .2s;
-      }
-    .footer-item {
-        padding: 6px;
+        padding: 1px;
         transition: .2s;
       } 
       .logo{

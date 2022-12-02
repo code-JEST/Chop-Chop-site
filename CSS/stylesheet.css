@@ -373,11 +373,11 @@ input[type=text]:focus {
         transition: .2s;
     }
     .footer-container {
-        padding: 25px;
+        padding: 40px;
         transition: .2s;
       }
     .footer-item {
-        padding: 1px;
+        padding: 0px;
         transition: .2s;
       } 
     .footer-åpningtider{
@@ -389,7 +389,7 @@ input[type=text]:focus {
     }
     .logo_tekst{
         height: 80px;
-        margin-left: 5px;
+        margin-left: 4px;
         transition: .4s;
     }
     .googlemaps{

@@ -370,13 +370,16 @@ input[type=text]:focus {
         transition: .2s;
     }
     .footer-container {
-        padding: 9px;
+        padding: 25px;
         transition: .2s;
       }
     .footer-item {
         padding: 1px;
         transition: .2s;
       } 
+    .footer-åpningtider{
+        font-size: 0.6rem;
+    }
       .logo{
         height: 80px;
         transition: .4s;

@@ -314,7 +314,7 @@ input[type=text]:focus {
         margin-right: 6vw;
     }
 }
-@media (max-width: 1040px){
+@media (max-width: 1050px){
     :root{
         --footer-font: 0.8rem;
         --button-font: 1.1rem;
@@ -351,6 +351,16 @@ input[type=text]:focus {
 		display: block;
         transition: .2s;
       }
+    .accessibility-cotainer{
+        padding-left: 30px;
+        margin-top: 30px;
+        transition: .2s;
+    }
+    .topical-cotainer{
+        padding-left: 30px; 
+        margin-top: 30px; 
+        transition: .2s; 
+    }
 }
 @media (max-width: 575px) {
     :root{
@@ -391,5 +401,8 @@ input[type=text]:focus {
     }
     .googlemaps{
         display:none;
+    }
+    #topical-hovedtekst{
+        font-size: 20px;
     }
   }

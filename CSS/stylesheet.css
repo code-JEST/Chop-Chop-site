@@ -275,16 +275,32 @@ input[type=text]:focus {
     flex-wrap: nowrap;
     margin:10px;
         padding:12px;
+        background-color:var(--boks2-color);
+    color:var(--menytext-color);
+    border-radius:50px;
+    margin-bottom:20px;
+    padding: 10px;
+        
 }
 .accessibility-container > .boxgruppe2{
         display: flex;
         flex-wrap: nowrap;
         margin:10px;
         padding:12px;
+        background-color:var(--boks1-color);
+    color:var(--menytext-color);
+    border-radius:50px;
+    margin-bottom:20px;
+    padding: 10px;
     }
     .accessibility-container > .alenebox{
         margin:10px;
         padding:12px;
+        background-color:var(--boks2-color);
+    color:var(--menytext-color);
+    border-radius:50px;
+    margin-bottom:20px;
+    padding: 10px;
     }
     .bildegruppe1{
     width:30%;
@@ -300,21 +316,12 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:var(--boks2-color);
-    color:var(--menytext-color);
-    border-radius:50px;
-    margin-bottom:20px;
-    padding: 10px;
+    
 }
 .access-box2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:var(--boks1-color);
-    color:var(--menytext-color);
-    border-radius:50px;
-    margin-bottom:20px;
-    padding: 10px;
 }
 /*Aktuelt*/
 .topical-cotainer{

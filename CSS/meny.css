@@ -118,6 +118,11 @@ hr{
 .allergibilder{
     height:50px;
     width:50px;
+    filter: invert(100%);
+    background-color: #4087a3;
+    border-radius: 50%;
+    margin: 4px;
+    padding: 4px;
 }
 .matbox{
     background-color:var(--boks1-color);

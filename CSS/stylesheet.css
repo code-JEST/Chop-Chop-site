@@ -82,7 +82,7 @@ header{
 }
 /*HOME*/
 #home{
-    /*BARE EN TEST FOR BILDE*/
+    /*Bilde er hentet fra https://pixabay.com/photos/eating-balcany-dinner-resturant-1544792  . Tatt av stevenmeansphotography */
     background-image: url(../images/eating-gdbe7da72e_1920.jpg);
     background-size: cover;
     position: relative;

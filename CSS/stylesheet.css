@@ -263,9 +263,6 @@ input[type=text]:focus {
 }
 /*Tilgjenlighet*/
 .accessibility-cotainer{
-    display: flex;
-    flex-direction: column;
-    padding-left: 370px;
     line-height: 150%;  
     margin-top: 60px;
 }
@@ -274,12 +271,17 @@ input[type=text]:focus {
     width: 70%;
     margin: 20px 0px 0px 40px;
   }
+.access-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*Aktuelt*/
 .topical-cotainer{
     display: flex;
     flex-direction: column;
-    padding-left: 370px;
+    align-items: center;
     line-height: 150%;  
     margin-top: 60px;  
 }
@@ -347,16 +349,6 @@ input[type=text]:focus {
 		display: block;
         transition: .2s;
       }
-    .accessibility-cotainer{
-        padding-left: 30px;
-        margin-top: 30px;
-        transition: .2s;
-    }
-    .topical-cotainer{
-        padding-left: 30px; 
-        margin-top: 30px; 
-        transition: .2s; 
-    }
 }
 @media (max-width: 575px) {
     :root{

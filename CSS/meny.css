@@ -72,9 +72,13 @@ body{
     text-decoration: underline solid;
 }
 .Meny{
+    position: relative;
     text-align:center;
     font-size: var(--h1-font);
+    font-weight: 500;
     color: var(--menytext-color);
+    width: 100%;
+    margin-bottom: 40px;
 }
 .matrett{
     margin-top:100px;

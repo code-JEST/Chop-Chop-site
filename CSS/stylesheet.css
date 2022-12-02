@@ -261,10 +261,35 @@ input[type=text]:focus {
     margin-top:200px;
 }
 /*Tilgjenlighet*/
-.accessibility-cotainer{
+.bakgrunnsfarge-accessibility{
+    background-color:var(--bg-color);
+}
+.accessibility-container{
     line-height: 150%;  
     margin-top: 60px;
+    
 }
+.accessibility-container > .boxgruppe1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin:10px;
+        padding:12px;
+}
+.accessibility-container > .boxgruppe2{
+        display: flex;
+        flex-wrap: nowrap;
+        margin:10px;
+        padding:12px;
+    }
+    .accessibility-container > .alenebox{
+        margin:10px;
+        padding:12px;
+    }
+    .bildegruppe1{
+    width:30%;
+    display: flex;
+    gap:40px;
+    }
 .access{
     display:block;
     width: 70%;
@@ -274,8 +299,22 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:var(--boks2-color);
+    color:var(--menytext-color);
+    border-radius:50px;
+    margin-bottom:20px;
+    padding: 10px;
 }
-
+.access-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--boks1-color);
+    color:var(--menytext-color);
+    border-radius:50px;
+    margin-bottom:20px;
+    padding: 10px;
+}
 /*Aktuelt*/
 .topical-cotainer{
     display: flex;

@@ -398,4 +398,12 @@ input[type=text]:focus {
     #topical-hovedtekst{
         font-size: 20px;
     }
+    #bookingform{
+        width:70%;
+        margin-left:14%;
+        background-color: lightgrey;
+        border: 7px solid rgb(255, 255, 255);
+        border-radius: 50px;
+      
+    }
   }

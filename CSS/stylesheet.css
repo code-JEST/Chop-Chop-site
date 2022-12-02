@@ -317,6 +317,7 @@ input[type=text]:focus {
         --h3-font: 1.6rem;
         --h2-font: 2.2rem;
         --h1-font: 3.5rem;
+        --h1-ekstra-font: 4rem;
         transition: .2s;
 	}
     .navbar{
@@ -364,14 +365,11 @@ input[type=text]:focus {
         --h3-font: 1.5rem;
         --h2-font: 2rem;
         --h1-font: 3rem;
+        --h1-ekstra-font: 2.8rem;
         transition: .2s;
 	}
     header{
         padding: 10px 2%;
-        transition: .2s;
-    }
-    .home-tekst h1{
-        font-size: 45px;
         transition: .2s;
     }
     .footer-container {

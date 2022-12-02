@@ -30,6 +30,7 @@
 header{
     background-color: var(--bg-color);
     z-index: 10;
+    width: 100%;
     align-items: center;
     padding: 20px 18%;
     display: flex;
@@ -37,18 +38,11 @@ header{
 }
 .logo{
     height: 100px;
-    transition: .4s;
-    transition: .5s;
-}
-.logo{
-    height: 100px;
-    transition: .4s;
+    transition: .2s;
 }
 .logo_tekst{
     height: 100px;
-    margin-right: 16vw;
-    height: 100px;
-    margin-right: 16vw;
+    margin-right: 15vw;
     margin-left: 20px;
     transition: .2s;
 }
@@ -312,6 +306,7 @@ input[type=text]:focus {
     }
     .logo_tekst{
         margin-right: 6vw;
+        transition: .2;
     }
 }
 @media (max-width: 1050px){

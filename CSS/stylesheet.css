@@ -265,6 +265,7 @@ input[type=text]:focus {
 .accessibility-cotainer{
     line-height: 150%;  
     margin-top: 60px;
+    
 }
 .access{
     display:block;
@@ -275,6 +276,11 @@ input[type=text]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:var(--boks2-color);
+    color:var(--menytext-color);
+    border-radius:50px;
+    margin-bottom:20px;
+    padding: 10px;
 }
 
 /*Aktuelt*/

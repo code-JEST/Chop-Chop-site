@@ -223,11 +223,6 @@ input[type=text]:focus {
       color:white;
 
   }
-  .access{
-    display:block;
-    width: 70%;
-    margin: 40px;
-  }
   input{
       padding: 5px 15px;
       margin:8px;
@@ -272,10 +267,12 @@ input[type=text]:focus {
     text-align: center;
     margin-top:200px;
 }
-
-
-
-
+/*Tilgjenlighet*/
+.access{
+    display:block;
+    width: 70%;
+    margin: 20px 0px 0px 40px;
+  }
 /*MEDIA*/
 @media (max-width: 1400px){
     :root{

@@ -369,8 +369,6 @@ input[type=text]:focus {
 #on-off{
     font-size: 50px;
     color: #ffffff;
-    background-color: var(--bg-color);
-    border-radius: 40%;
 }
 .knapp{
     font-size: 2px;

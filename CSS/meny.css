@@ -139,7 +139,8 @@ hr{
     background-color:var(--boks1-color);
     border-top-right-radius: 500px;
     width: 80%;
-    height:450px;   
+    height:450px;  
+    border-top:solid 3px white;
 }
 .matbox2{
     background-color: var(--boks2-color);
@@ -149,6 +150,7 @@ hr{
     position:relative;
     margin-left:20%;
     margin-bottom:20px;
+    border-bottom:solid 3px white;"
 }
 @media(max-width: 1440px){
     .måltid{
@@ -165,7 +167,7 @@ hr{
         top:25px;
     }
     .matbox{
-        background-color:var(--red-color);
+        background-color:var(--boks1-color);
         border-top-right-radius: 100px;
         border-bottom-right-radius: 100px;
         width: 80%;
@@ -175,7 +177,7 @@ hr{
         transition: 0.3s;
     }
     .matbox2{
-        background-color: var(--maroon-color);
+        background-color: var(--boks2-color);
         border-top-left-radius: 100px;
         border-bottom-left-radius: 100px;
         height:350px;
@@ -183,6 +185,8 @@ hr{
         position:relative;
         margin-left:20%;
         transition: 0.3s;
+        border-top:solid 3px white;
+        border-bottom:none;
     }
     .gridtesting{
         bottom:90px;
@@ -195,26 +199,52 @@ hr{
 @media(max-width: 1650px){
 }
 @media(max-width:1100px){
+    .matbox{
+        width:100%;
+        background-color: var(--bg-color);
+        height: 650px;
+        border-bottom: solid 3px white;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+        border-top:none;
+    }
+    .matbox2{
+        width:100%;
+        background-color: var(--bg-color);
+        margin-left: 0px;
+        height: 650px;
+        border-bottom: solid 3px white;
+        border-bottom-right-radius: 100px;
+        border-top:none;
+    }
     .food{
         float:none;
         margin-left: auto;
         margin-right:auto;
         position: static;
-        transition: 0.3s;    }
+        transition: 0.3s;
+        margin-bottom:100px;
+        }
     .food2{
         margin-left: auto;
         margin-right:auto;
         position: static;   
         transition: 0.3s;
+        margin-bottom:100px;
 
     }
     .a-blokk{
         display:none;
     }
     .gridtesting{
-        background-color:initial;
         padding-top: 20px;
         padding-bottom: 20px;
-        border-bottom:solid 3px;
+        margin-left:0px;
+        margin-right: 0px;
+    }
+    .gridtesting2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin:0px;
     }
 }

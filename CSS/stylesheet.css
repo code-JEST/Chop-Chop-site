@@ -361,7 +361,15 @@ input[type=text]:focus {
 }
 #topical-hovedtekst{
     line-height: 1.1;
+    background-color: var(--bg-color);
+    color: var(--nav-color);
+    border-radius: 25px;
+    padding: 20px;
+    width: 70%;
+    height: 100%;
 }
+
+
 /*MEDIA*/
 @media (max-width: 1400px){
     :root{

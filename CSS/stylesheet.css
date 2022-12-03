@@ -296,8 +296,6 @@ input[type=text]:focus {
     
 }
 .boxgruppe1{
-    display: flex;
-    flex-wrap: nowrap;
     margin:18px;
     padding:12px;
     background-color:var(--boks2-color);
@@ -307,8 +305,6 @@ input[type=text]:focus {
         
 }
 .boxgruppe2{
-        display: flex;
-        flex-wrap: nowrap;
         margin:18px;
         padding:12px;
         background-color:var(--boks1-color);
@@ -333,7 +329,8 @@ input[type=text]:focus {
     }
 .access{
     display:block;
-    width: 80%;
+    margin:18px;
+    width: 75%;
     margin: 20px 0px 0px 40px;
   }
 .access-box{
@@ -468,20 +465,11 @@ input[type=text]:focus {
         border-radius: 50px;
       
     }
-    .boxgruppe1{
-        display:flex;
-        flex-wrap:nowrap;
-    }
-    .boxgruppe2{
-        display:flex;
-        flex-wrap:nowrap;
-    }
     .bildegruppe1{
         display:flex;
         flex-wrap:nowrap;
         border-radius:30px;
-        display:flex;
-        
+    
 
     }
   }

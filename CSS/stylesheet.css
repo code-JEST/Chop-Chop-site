@@ -333,7 +333,7 @@ input[type=text]:focus {
     }
 .access{
     display:block;
-    width: 70%;
+    width: 80%;
     margin: 20px 0px 0px 40px;
   }
 .access-box{
@@ -467,5 +467,21 @@ input[type=text]:focus {
         border: 7px solid rgb(255, 255, 255);
         border-radius: 50px;
       
+    }
+    .boxgruppe1{
+        display:flex;
+        flex-wrap:nowrap;
+    }
+    .boxgruppe2{
+        display:flex;
+        flex-wrap:nowrap;
+    }
+    .bildegruppe1{
+        display:flex;
+        flex-wrap:nowrap;
+        border-radius:30px;
+        display:flex;
+        
+
     }
   }

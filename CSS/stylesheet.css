@@ -264,16 +264,17 @@ input[type=text]:focus {
 /*Tilgjenlighet*/
 .bakgrunnsfarge-accessibility{
     background-color:var(--bg-color);
+    overflow:hidden;
 }
 .accessibility-container{
     line-height: 150%;  
     margin-top: 60px;
     
 }
-.accessibility-container > .boxgruppe1{
+.boxgruppe1{
     display: flex;
     flex-wrap: nowrap;
-    margin:10px;
+    margin:18px;
     padding:12px;
     background-color:var(--boks2-color);
     color:var(--menytext-color);
@@ -281,18 +282,18 @@ input[type=text]:focus {
     margin-bottom:20px;
         
 }
-.accessibility-container > .boxgruppe2{
+.boxgruppe2{
         display: flex;
         flex-wrap: nowrap;
-        margin:10px;
+        margin:18px;
         padding:12px;
         background-color:var(--boks1-color);
         color:var(--menytext-color);
         border-radius:50px;
         margin-bottom:20px;
     }
-    .accessibility-container > .alenebox{
-        margin:10px;
+    .alenebox{
+        margin:18px;
         padding:12px;
         background-color:var(--boks2-color);
         color:var(--menytext-color);
@@ -300,6 +301,7 @@ input[type=text]:focus {
         margin-bottom:20px;
     }
     .bildegruppe1{
+    margin-top:18px;
     width:30%;
     display: flex;
     gap:40px;

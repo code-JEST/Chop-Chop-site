@@ -139,7 +139,8 @@ hr{
     background-color:var(--boks1-color);
     border-top-right-radius: 500px;
     width: 80%;
-    height:450px;   
+    height:450px;  
+    border-top:solid 3px white;
 }
 .matbox2{
     background-color: var(--boks2-color);
@@ -149,6 +150,7 @@ hr{
     position:relative;
     margin-left:20%;
     margin-bottom:20px;
+    border-bottom:solid 3px white;"
 }
 @media(max-width: 1440px){
     .måltid{
@@ -183,6 +185,8 @@ hr{
         position:relative;
         margin-left:20%;
         transition: 0.3s;
+        border-top:solid 3px white;
+        border-bottom:none;
     }
     .gridtesting{
         bottom:90px;
@@ -202,6 +206,7 @@ hr{
         border-bottom: solid 3px white;
         border-bottom-left-radius: 100px;
         border-top-left-radius: 100px;
+        border-top:none;
     }
     .matbox2{
         width:100%;
@@ -210,6 +215,7 @@ hr{
         height: 650px;
         border-bottom: solid 3px white;
         border-bottom-right-radius: 100px;
+        border-top:none;
     }
     .food{
         float:none;

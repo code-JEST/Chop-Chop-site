@@ -362,6 +362,7 @@ input[type=text]:focus {
     margin: 20px 0px 0px 40px;
     resize:horizontal;
     overflow:auto;
+    margin-bottom:24px;
 }
 #topical-hovedtekst{
     line-height: 1.1;

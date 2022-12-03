@@ -336,7 +336,6 @@ input[type=text]:focus {
 .access-box{
     display: flex;
     flex-direction: column;
-    
 }
 .access-box2{
     display: flex;

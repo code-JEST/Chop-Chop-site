@@ -135,6 +135,13 @@ footer {
 .footer-åpningtider{
     font-size: 0.7rem;
 }
+/*Booking tekst*/
+.booking-tekst{
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;  
+    margin-top: 60px; 
+}
 /*Booking form*/
 .booking-label{
     font-size: 0px;

@@ -112,7 +112,7 @@ header{
 }
 /*FOOTER*/
 footer {
-    background-color: var(--main-color);
+    background-color: var(--boks1-color);
     color: white;
     font-size: var(--footer-font);
     position: fixed;
@@ -142,7 +142,10 @@ footer {
     line-height: 150%;  
     margin-top: 60px;
     margin-bottom: 40px; 
-}
+    width:30%;
+    border:solid 3px white;
+    margin-left:30%;
+    }
 .booking-tekst h1{
     font-weight: 400;
     line-height: 40px;
@@ -199,15 +202,7 @@ input[type=text]:focus {
     margin: 8px 0;
     width: 30%;
   }
-#bookingform{
-    text-align:center;
-    width:30%;
-    margin-left:65%;
-    background-color: lightgrey;
-  border: 7px solid rgb(255, 255, 255);
-  border-radius: 50px;
-  
-}
+
   .gridtesting{
     padding: 20px;
     font-size: 30px;
@@ -241,18 +236,7 @@ input[type=text]:focus {
       color:white;
 
   }
-  input{
-      padding: 5px 15px;
-      margin:8px;
-      border-radius:3px solid gray;
-      cursor:pointer;
-  }
-  .inputdiv{
-      width:auto;
-      text-align:center;
-      margin-top:20px;
-      
-  }
+
   
   .åpningstider{
       text-align:center;
@@ -265,21 +249,47 @@ input[type=text]:focus {
   .footer-item a{
     color: #ffffff;
   }
+  #AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA{
+
+  }
   .googlemaps{
     display:block;
     position: absolute;
     margin-right: 10px;
     margin-top: 16px;
+    margin-left: 30px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:25%;
+    top:30%;
+    width:3 0%;
     height: 35%;
     transition: 0.2s;
+  } 
+   input{
+      padding: 5px 15px;
+      margin:8px;
+      border-radius:3px solid gray;
+      cursor:pointer;
   }
+  .inputdiv{
+      width:auto;
+      text-align:center;
+      margin-top:20px;
+      
+  }
+  #bookingform{
+    text-align:center;
+    width:30%;
+    margin-left:60%;
+    background-color: lightgrey;
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    position: absolute;
+}
 /*Sendt booking*/
 #sendtbooking{
     font-size: var(--h1-font);
-    color: var(--bg-color);
+    color: white;
     display: block;
     position: relative;
     text-align: center;

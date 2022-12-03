@@ -206,19 +206,7 @@ input[type=text]:focus {
     background-color: lightgrey;
   border: 7px solid rgb(255, 255, 255);
   border-radius: 50px;
-  
 }
-  .gridtesting{
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-
-  }
-  #gridcontainer{
-      display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
   .backgroundimage{ 
       background-position: center;
       display: grid;
@@ -333,6 +321,9 @@ input[type=text]:focus {
     }
     .bilde2radius{
         border-radius:20px 80px 20px 80px;
+    }
+    .bildetekstgruppe1{
+        
     }
 .access{
     display:block;

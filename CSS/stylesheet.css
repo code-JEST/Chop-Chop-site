@@ -199,14 +199,7 @@ input[type=text]:focus {
     margin: 8px 0;
     width: 30%;
   }
-#bookingform{
-    text-align:center;
-    width:30%;
-    margin-left:65%;
-    background-color: lightgrey;
-  border: 7px solid rgb(255, 255, 255);
-  border-radius: 50px;
-}
+
   .backgroundimage{ 
       background-position: center;
       display: grid;
@@ -239,7 +232,8 @@ input[type=text]:focus {
       width:auto;
       text-align:center;
       margin-top:20px;
-      
+      width:30%;
+      display: inline-block;
   }
   
   .åpningstider{
@@ -254,8 +248,8 @@ input[type=text]:focus {
     color: #ffffff;
   }
   .googlemaps{
-    display:block;
-    position: absolute;
+    display:inline-block;
+    position: relative;
     margin-right: 10px;
     margin-top: 16px;
     border-radius: 50px;
@@ -263,7 +257,19 @@ input[type=text]:focus {
     width:25%;
     height: 35%;
     transition: 0.2s;
+  } 
+   #bookingboks{
+    width:100%;
+    margin-left: 10%;
+    margin-right:10%;
   }
+  #bookingform{
+    text-align:center;
+    width:100%;
+    background-color: lightgrey;
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
 /*Sendt booking*/
 #sendtbooking{
     font-size: var(--h1-font);
@@ -392,6 +398,7 @@ input[type=text]:focus {
     animation-name: fade;
     animation-duration: .3s;
   }
+
 @keyframes fade {
     from {opacity: .7}
     to {opacity: 1}

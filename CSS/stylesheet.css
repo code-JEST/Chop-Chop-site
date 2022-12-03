@@ -386,10 +386,31 @@ input[type=text]:focus {
     border-radius: 40%;
     cursor: pointer;
 }
+.knapp :hover{
+    background-color: #293B5F;
+    border-radius: 40%;
+}
 .dark-mode {
     background-color: rgb(43, 43, 43);
     color: white;
   }
+.slide-container {
+    max-width: 890px;
+    position: relative;
+    margin: auto;
+  }
+.fade {
+    animation-name: fade;
+    animation-duration: .3s;
+  }
+@keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+  }
+
+
+
+
 
 
 /*MEDIA*/

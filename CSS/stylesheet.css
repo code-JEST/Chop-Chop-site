@@ -145,6 +145,7 @@ footer {
 }
 .booking-tekst h1{
     font-weight: 400;
+    line-height: 40px;
     display:block;
     width: 70%;
     margin: 20px 0px 0px 40px;

@@ -326,6 +326,13 @@ input[type=text]:focus {
     width:45%;
     display: flex;
     gap:40px;
+    margin-bottom:20px;
+    }
+    .bilde1radius{
+        border-radius:80px 20px 80px 20px;
+    }
+    .bilde2radius{
+        border-radius:20px 80px 20px 80px;
     }
 .access{
     display:block;
@@ -375,6 +382,13 @@ input[type=text]:focus {
         margin-right: 6vw;
         transition: .2;
     }
+    .bilde1radius{
+        border-radius:80px 20px 80px 20px;
+        margin-bottom:20px;
+    }
+    .bilde2radius{
+        border-radius:20px 80px 20px 80px;
+    }
 }
 @media (max-width: 1050px){
     :root{
@@ -414,6 +428,13 @@ input[type=text]:focus {
 		display: block;
         transition: .2s;
       }
+    .bilde1radius{
+        border-radius:60px 20px 60px 20px;
+        margin-bottom:20px;
+    }
+    .bilde2radius{
+        border-radius:20px 60px 20px 60px;
+    }
 }
 @media (max-width: 575px) {
     :root{
@@ -468,6 +489,12 @@ input[type=text]:focus {
     .bildegruppe1{
         display:block;
         flex-wrap:nowrap;
-        border-radius:30px;
+    }
+    .bilde1radius{
+        border-radius:40px 20px 40px 20px;
+        margin-bottom:20px;
+    }
+    .bilde2radius{
+        border-radius:20px 40px 20px 40px;
     }
   }

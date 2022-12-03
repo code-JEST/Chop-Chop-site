@@ -148,11 +148,16 @@ footer {
     display:block;
     width: 70%;
     margin: 20px 0px 0px 40px;
+    font-size: 40px;
 }
 .booking-tekst p{
     display:block;
     width: 70%;
     margin: 20px 0px 0px 40px;
+    font-size: 20px;
+}
+.booking-tekst b{
+    color: var(--main-color);
 }
 /*Booking form*/
 .booking-label{

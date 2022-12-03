@@ -388,6 +388,7 @@ input[type=text]:focus {
     }
     .bilde2radius{
         border-radius:20px 80px 20px 80px;
+        margin-bottom:20px;
     }
 }
 @media (max-width: 1050px){
@@ -434,6 +435,7 @@ input[type=text]:focus {
     }
     .bilde2radius{
         border-radius:20px 60px 20px 60px;
+        margin-bottom:20px;
     }
 }
 @media (max-width: 575px) {
@@ -496,5 +498,6 @@ input[type=text]:focus {
     }
     .bilde2radius{
         border-radius:20px 40px 20px 40px;
+        margin-bottom:20px;
     }
   }

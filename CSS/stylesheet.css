@@ -360,6 +360,8 @@ input[type=text]:focus {
     display:block;
     width: 70%;
     margin: 20px 0px 0px 40px;
+    resize:horizontal;
+    overflow:auto;
 }
 #topical-hovedtekst{
     line-height: 1.1;

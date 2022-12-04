@@ -115,7 +115,7 @@ header{
 }
 /*FOOTER*/
 footer {
-    background-color: var(--main-color);
+    background-color: var(--bg-color);
     color: white;
     font-size: var(--footer-font);
     position: fixed;
@@ -149,7 +149,6 @@ footer {
     width: 90%;
     padding:20px 5% 20px 5%;
     background-color: var(--boks1-color);
-    border-bottom: solid 3px white;
     border-top: solid 3px white;
     border-radius: 100px;
 }
@@ -244,12 +243,13 @@ input[type=text]:focus {
       bottom:0px;
       height:100%;
       float:right;
+      margin-right: 14%;
   }
   
   .åpningstider{
-      text-align:center;
-      margin-top: 100px;
-      padding-bottom: 50px;
+    text-align:center;
+    margin-top: 30px;
+    padding-bottom: 50px;
 
   }
   .tidene{
@@ -265,9 +265,12 @@ input[type=text]:focus {
     margin-right: 10px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:40%;
+    width:30%;
     height: 100%;
     transition: 0.2s;
+    min-width: 250px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-left:14%;
   } 
    #bookingboks{
     width:90%;
@@ -277,12 +280,21 @@ input[type=text]:focus {
   #bookingform{
     text-align:center;
     width:100%;
-    max-width: 510px;
     min-width: 250px;
     background-color: lightgrey;
-  border: 7px solid rgb(255, 255, 255);
-  border-radius: 50px;
-  height:100%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    height:100%;
+}
+#hbook{
+    font-weight: 400;
+    line-height: 40px;
+    display:block;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:var(--bg-color);
 }
 /*Sendt booking*/
 #sendtbooking{
@@ -496,6 +508,24 @@ input[type=text]:focus {
         margin-bottom:20px;
     }
 }
+@media (max-width: 790px) {
+    .googlemaps{
+        display:none;
+    }
+    .inputdiv{
+        width:70%;
+        min-width:min-content;
+        text-align:center;
+        display:block;
+        float:none;
+        margin-right:auto;
+        margin-left:auto;
+        position: static;
+    }
+    #bookingform{
+        margin-left: 0%;
+    }
+}
 @media (max-width: 575px) {
     :root{
         --footer-font: 0.7rem;
@@ -532,19 +562,9 @@ input[type=text]:focus {
         margin-left: 4px;
         transition: .4s;
     }
-    .googlemaps{
-        display:none;
-    }
+
     #topical-hovedtekst{
         font-size: 20px;
-    }
-    #bookingform{
-        width:70%;
-        margin-left:14%;
-        background-color: lightgrey;
-        border: 7px solid rgb(255, 255, 255);
-        border-radius: 50px;
-      
     }
     .bildegruppe1{
         display:block;

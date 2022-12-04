@@ -549,11 +549,11 @@ input[type=text]:focus {
         width:80%
     }
     .bilde1radius{
-        border-radius:40px 20px 40px 20px;
+        border-radius:20px 20px 20px 20px;
         margin-bottom:20px;
     }
     .bilde2radius{
-        border-radius:20px 40px 20px 40px;
+        border-radius:20px 20px 20px 20px;
         margin-bottom:20px;
     }
   }

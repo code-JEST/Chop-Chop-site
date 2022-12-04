@@ -299,7 +299,7 @@ input[type=text]:focus {
 /*Sendt booking*/
 #sendtbooking{
     font-size: var(--h1-font);
-    color: var(--bg-color);
+    color: white;
     display: block;
     position: relative;
     text-align: center;

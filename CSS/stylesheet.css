@@ -521,6 +521,7 @@ input[type=text]:focus {
         margin-right:auto;
         margin-left:auto;
         position: static;
+        transition: 0.2s;
     }
     #bookingform{
         margin-left: 0%;

@@ -11,6 +11,7 @@ body{
   position: relative;
   bottom:0px;
   z-index: 1;
+  text-align: center;
 }
 .gridtesting2{
     font-size: var(--p-font);

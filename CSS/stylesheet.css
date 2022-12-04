@@ -265,7 +265,7 @@ input[type=text]:focus {
     margin-right: 10px;
     border-radius: 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:50%;
+    width:40%;
     height: 100%;
     transition: 0.2s;
   } 
@@ -277,9 +277,12 @@ input[type=text]:focus {
   #bookingform{
     text-align:center;
     width:100%;
+    max-width: 510px;
+    min-width: 250px;
     background-color: lightgrey;
   border: 7px solid rgb(255, 255, 255);
   border-radius: 50px;
+  height:100%;
 }
 /*Sendt booking*/
 #sendtbooking{
